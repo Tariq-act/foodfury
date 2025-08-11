@@ -6,11 +6,11 @@ import "./globals.css";
 
 export default function RootLayout() {
   const [fontsLoaded, error] = useFonts({
-    "QuickSand-Bold": require("../assets/fonts/Quicksand-Bold.ttf"),
-    "QuickSand-Medium": require("../assets/fonts/Quicksand-Medium.ttf"),
-    "QuickSand-Regular": require("../assets/fonts/Quicksand-Regular.ttf"),
-    "QuickSand-SemiBold": require("../assets/fonts/Quicksand-SemiBold.ttf"),
-    "QuickSand-Light": require("../assets/fonts/Quicksand-Light.ttf"),
+    "quicksand-bold": require("../assets/fonts/Quicksand-Bold.ttf"),
+    "quicksand-medium": require("../assets/fonts/Quicksand-Medium.ttf"),
+    "quicksand-regular": require("../assets/fonts/Quicksand-Regular.ttf"),
+    "quicksand-semibold": require("../assets/fonts/Quicksand-SemiBold.ttf"),
+    "quicksand-light": require("../assets/fonts/Quicksand-Light.ttf"),
   });
 
   useEffect(() => {
